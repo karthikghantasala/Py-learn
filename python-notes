@@ -1,0 +1,43 @@
+--> http://nbviewer.jupyter.org/github/jmportilla/Complete-Python-Bootcamp/tree/master/
+
+--> https://docs.python.org/2/tutorial/floatingpoint.html
+
+--> Objects encapsulate state
+--> Objects have some functionality attached to it
+--> Methods are functions attaced to objects
+--> Python is a dynamic language
+--> Python allows you to re-allocate variables to a different datatype
+--> Dont use camel case for variable names
+--> Integers/Strings/Floats are immutable..i.e, You cant change a string , you can only create a new string...
+--> Values in lists are mutable, meaning you can change the value of a variable without re-assigning it
+--> Dictionaries are immutable 
+--> Tuples cant be modified 
+--> Dictionaries: Order is not gauranteed unlike a list
+--> There is some special package for making a dictionary items retrieve in order
+--> You can use int or float also for keys in a dictionary...but cant use a list as a key for a dict item like below:
+  other = { [1,2]: 'test'} --> not correct
+
+--> is operator is different from == operator
+eg: 1 == 1.0 return true
+    1 is 1.0 returns false
+  check memory allocation id(1) , id(1.0)
+
+--> ## Namespace object type
+
+    import package
+
+ 	for eg: import argparse (package)
+
+ 	            it will have constructor function called class, say, ArgumentParser() [it can even take some arguments]
+
+ 	                class will have methods [which are just functions attached to the class] that can accept argument, say, add_argument
+
+ 	      usage:    import argparse
+ 	                
+ 	                parser = argparse.ArgumentParser()
+ 	                parser.add_argument('filename', help='the file to read')
+
+ 	                args = parser.parse_args()
+
+
+--> Explore list if python standard packages in the library website
