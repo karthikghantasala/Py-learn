@@ -24,7 +24,7 @@ try:
 except OSError as err:
 	print("Caught OSError")
 	output = err
-except subprocess.CalledProcessError as err
+except subprocess.CalledProcessError as err:
     print("caught CalledProcessError")
     output = err
 print (output)
