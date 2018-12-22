@@ -2,7 +2,6 @@
 
 import argparse
 
-
 parser = argparse.ArgumentParser(description='Read a file in reverse')
 
 parser.add_argument('filename', help='the file to read')
