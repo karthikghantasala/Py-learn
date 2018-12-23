@@ -1,4 +1,12 @@
+https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/
+
+Learn Python
+=============
 https://automatetheboringstuff.com
+
+http://projectpython.net/chapter00/
+
+https://mkaz.blog/code/python-argparse-cookbook/
 
 https://www.reddit.com/r/learnpython/wiki/index
 
@@ -9,3 +17,11 @@ https://www.learnpython.org
 https://www.practicepython.org/about/
 
 https://www.codecademy.com/learn
+
+Serverless
+===========
+https://hackernoon.com/creating-a-serverless-python-api-using-aws-lambda-chalice-d321dc43ce2
+
+Write Py Test cases
+====================
+https://docs.python-guide.org/writing/tests/
